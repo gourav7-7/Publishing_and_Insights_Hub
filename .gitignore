@@ -1,0 +1,27 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local artefacts
+*.zip
+*.log
+# Preserve local pre-multiplatform backups; exclude from submission
+*.pre_multiplatform.bak
+build/
+dist/
